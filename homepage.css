@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #48435c;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #3a344d;
+    font-family: cursive;
+}
+
+.nav-links a {
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 1.8rem;
+}
+
+.menu li:hover {
+    background-color: #655d809a;
+    border-radius: 0.5rem;
+}
+
+.menu li {
+    padding: 0.5rem 2rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+#divBusca {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 5px;
+    background-color: #E0EEEE;
+    border-radius: 10px;
+    width: 500px;
+    height: 32px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 465px;
+}
+
+.banner {
+    text-align: center;
+    padding: 50px;
+}
+
+.banner img {
+    border-radius: 1rem;
+}
+
+.cards {
+    padding: 3rem 3rem 5rem 3rem;
+    display: grid;
+    grid-template-columns: .7fr .7fr .7fr .7fr;
+    justify-items: center;
+    grid-row-gap: 8rem;
+}
+
+.card {
+    background-color: white;
+    border-radius: 2rem;
+    width: 35rem;
+    height: 50rem;
+    display: grid;
+    justify-items: center;
+}
+
+.card #produto{
+    width: 300px;
+    padding-top: 4rem;
+}
+
+.card #produto2{
+    width: 150px;
+    padding-top: 4rem;
+}
+
+.card #produto3{
+    width: 150px;
+    padding-top: 4rem;
+}
+
+.card #produto4{
+    width: 90px;
+    padding-top: 4rem;
+}
+
+.card #produto5{
+    width: 125px;
+    padding-top: 4rem;
+}
+
+.card #produto6{
+    width: 200px;
+    padding-top: 4rem;
+}
+
+.card #produto7{
+    width: 200px;
+    padding-top: 4rem;
+}
+
+.card #produto8{
+    width: 200px;
+    padding-top: 4rem;
+}
+
+.card #price {
+    color: blue;
+    font-size: 2.5rem;
+}
+
+.card #more {
+    width: 30px;
+}
+
+.cards h1{
+    font-size: 2.7rem;
+}
+
+.cards p{
+    padding: 0 3rem;
+    font-size: 1.7rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    height: 8rem;
+    padding: 2rem 0 2rem 2rem;
+    background-color: #3a344d;
+}
+
+footer p {
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
